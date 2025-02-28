@@ -1,11 +1,23 @@
-import Header from '@/components/header/header';
+import AboutUs from '@/components/about-us/about-us';
+import Banner from '@/components/banner/banner';
+import Contact from '@/components/contact/contact';
+import Services from '@/components/services/services';
+import Testimonies from '@/components/testimonies/testimonies';
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'></main>
-      <footer className='row-start-3 flex gap-6 flex-wrap items-center justify-center'></footer>
+      {/* <Header /> */}
+      <main>
+        <Banner />
+        <AboutUs />
+        <Services />
+        <Testimonies />
+        <Contact />
+      </main>
+      <footer className='bg-gray-900 text-white py-8 text-center'>
+        <p>&copy; 2025 IronZone. Todos los derechos reservados.</p>
+      </footer>
     </>
   );
 }
