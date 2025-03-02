@@ -36,7 +36,10 @@ export default function Testimonies() {
   ];
 
   return (
-    <section id='testimonios' className='bg-gray-900 text-white py-24 px-4'>
+    <section
+      id='testimonios'
+      className='bg-gray-900 text-white py-24 px-4'
+    >
       <div className='container mx-auto text-center'>
         <h2 className='text-4xl font-bold mb-12'>Testimonios</h2>
 
@@ -55,9 +58,12 @@ export default function Testimonies() {
             className='swiper-container w-full max-w-4xl mx-auto self-center'
           >
             {testimonies.map((testimonial, index) => (
-              <SwiperSlide key={index} className='swiper-slide'>
+              <SwiperSlide
+                key={index}
+                className='swiper-slide'
+              >
                 <div className='bg-gray-800 p-8 rounded-lg shadow-lg max-w-xs testimonial-card'>
-                  <p className='mb-4'>"{testimonial.text}"</p>
+                  <p className='mb-4'>&quot;{testimonial.text}&quot;</p>
                   <p className='font-semibold'>{testimonial.name}</p>
                 </div>
               </SwiperSlide>
