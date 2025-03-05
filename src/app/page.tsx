@@ -15,8 +15,23 @@ export default function Home() {
         <Testimonies />
         <Contact />
       </main>
-      <footer className='bg-gray-900 text-white py-8 text-center'>
-        <p>&copy; 2025 IronZone. Todos los derechos reservados.</p>
+      <footer className='bg-gray-900 text-gray-200 py-6'>
+        <div className='max-w-7xl mx-auto text-center'>
+          <p className='text-lg'>
+            &copy; {new Date().getFullYear()} Titan Gym.
+          </p>
+          <p className='mt-2 text-sm'>
+            Powered by{' '}
+            <a
+              href='https://virtualdesigns.tech'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-blue-600'
+            >
+              Virtual Designs
+            </a>
+          </p>
+        </div>
       </footer>
     </>
   );

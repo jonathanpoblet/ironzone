@@ -9,10 +9,11 @@ export default function Contact() {
           ¿Listo para transformar tu cuerpo?
         </h2>
         <p className='text-lg text-gray-900 mb-8'>
-          Contáctanos para más información o para comenzar tu entrenamiento personalizado.
+          Contáctanos para más información o para comenzar tu entrenamiento
+          personalizado.
         </p>
         <a
-          href='mailto:contacto@ironzone.com'
+          href='https://wa.me/1121592753?text=Hola,%20quiero%20consultar%20por%20un%20plan!'
           className='bg-black text-white py-3 px-8 rounded-full text-xl hover:bg-gray-800 transition duration-300'
         >
           INSCRIBIRME

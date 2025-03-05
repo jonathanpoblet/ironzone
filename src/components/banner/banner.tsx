@@ -12,7 +12,7 @@ export default function Banner() {
         </p>
 
         <a
-          href='#contacto'
+          href='https://wa.me/1121592753?text=Hola,%20quiero%20consultar%20por%20un%20plan!'
           className='bg-black text-white py-3 px-8 rounded-full text-xl hover:bg-stone-800 transition duration-300'
         >
           INSCRIBIRME
